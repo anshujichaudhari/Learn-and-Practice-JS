@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1 id="text">Your Image is Visible</h1> 
+   <button id="btn" onclick="toggle()"> Toggle Image</button>
+   <br>
+   <br>
+   
+   <div><img src="https://th.bing.com/th/id/OIP.Nue9sp7G45lGy2oxF8Xi4AAAAA?w=277&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" id="img">
+   </div>
+
+   <script>
+    const text = document.getElementById('text');
+    text.innerText = "Your Image is visible.";
+    function toggle(){
+        const image = document.getElementById('img');
+        if(image.style.opacity == 0){
+            image.style.opacity = 100;
+            text.innerText = "Your Image is Visible.";
+        }
+        else{
+            image.style.opacity = 0;
+            text.innerText = "Your Image is hidden";
+        }
+    }
+    
+</script>
+</body>
+</html>

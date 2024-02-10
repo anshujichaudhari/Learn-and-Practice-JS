@@ -1,0 +1,21 @@
+//declaration of array
+
+// 1)using square brackets
+
+// let numbersarray = [20,50,46,59];
+// console.log(numbersarray);
+
+// let fruits = new Array("Apples","Oranges","Bananas");
+// console.log(fruits);       //   [ 'Apples', 'Oranges', 'Bananas' ]
+
+// let mixedArray = ['Apples', true,10,{name:"Anshu"}];
+// console.log(mixedArray);
+
+//using array constructor
+
+// let fruits = new Array(5);
+// console.log(fruits.length);
+
+//using array literals
+// let mixedArray = Array('Apples', true,10,{name:"Anshu"});
+// console.log(mixedArray);
